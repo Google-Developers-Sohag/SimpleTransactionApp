@@ -32,9 +32,9 @@ Notice :
 ```xml
 android:exported
 ```
-This element sets whether the activity can be launched by components of other applications:
-If "true", the activity is accessible to any app, and is launchable by its exact class name.
-If "false", the activity can be launched only by components of the same application, applications with the same user ID, or privileged system components. This is the default value when there are no intent filters.
+This element sets whether the activity can be launched by components of other applications :
+- If "true", the activity is accessible to any app, and is launchable by its exact class name.
+- If "false", the activity can be launched only by components of the same application, applications with the same user ID, or privileged system components. This is the default value when there are no intent filters.
 
 
 `Activity` : The basic entry point for android applications context, almost all activities interact with the user, 
